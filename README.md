@@ -1,14 +1,15 @@
 # Desafio
  Projeto de banco feito em Angular
 
-Para executar o projeto
+Para executar o projeto entre na pasta "backend" e "frontend" 
+execute: "npm install"
 
-"npm install"
+depois
 
-dentro da pasta "backend"
+dentro da pasta "backend" 
+execute: "npm start"
 
-"npm start"
+e
 
 dentro da pasta "frontend"
-
-"ng serve"
+execute: "ng serve"
