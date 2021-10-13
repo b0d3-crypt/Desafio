@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>Depositar</mat-card-title>
+    <form action="">
+        
+        <mat-form-field>
+            <input matInput placeholder="Valor"
+            [(ngModel)]="deposito" name="saldo">
+        </mat-form-field>
+        
+    </form>
+    
+    
+    <button mat-raised-button (click)="depositarConta()" color="primary">
+        salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()" >
+        cancelar
+    </button>
+</mat-card>
